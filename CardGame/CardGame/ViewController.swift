@@ -84,7 +84,6 @@ class ViewController: UIViewController {
         }else{
             self.winnerMsg = "No Winner"
             self.lblWinner.text = winnerMsg
-            self.playAgain(winner: winnerMsg)
         }
     }
     
