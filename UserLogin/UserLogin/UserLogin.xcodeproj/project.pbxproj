@@ -16,7 +16,8 @@
 		674D25A52560AED200424A23 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 674D25A42560AECB00424A23 /* GoogleService-Info.plist */; };
 		674D25BA2560B52E00424A23 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674D25B92560B52E00424A23 /* Utilities.swift */; };
 		674D25BD2560B97D00424A23 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674D25BC2560B97D00424A23 /* DashboardViewController.swift */; };
-		674D25C02560C88000424A23 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674D25BF2560C88000424A23 /* SignUpViewController.swift */; };
+		67C6C9912561B0830054871A /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6C9902561B0830054871A /* ResetPasswordViewController.swift */; };
+		67C6C9992561BD900054871A /* SignUpUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6C9982561BD900054871A /* SignUpUserViewController.swift */; };
 		ED544D76BE61032246699C72 /* Pods_UserLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807D23AFAFE4F4F071E19F8B /* Pods_UserLogin.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +35,8 @@
 		674D25A42560AECB00424A23 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		674D25B92560B52E00424A23 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		674D25BC2560B97D00424A23 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
-		674D25BF2560C88000424A23 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		67C6C9902561B0830054871A /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		67C6C9982561BD900054871A /* SignUpUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUserViewController.swift; sourceTree = "<group>"; };
 		807D23AFAFE4F4F071E19F8B /* Pods_UserLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,7 +83,8 @@
 				674D25A42560AECB00424A23 /* GoogleService-Info.plist */,
 				674D259D2560AB7100424A23 /* Info.plist */,
 				674D25BC2560B97D00424A23 /* DashboardViewController.swift */,
-				674D25BF2560C88000424A23 /* SignUpViewController.swift */,
+				67C6C9902561B0830054871A /* ResetPasswordViewController.swift */,
+				67C6C9982561BD900054871A /* SignUpUserViewController.swift */,
 			);
 			path = UserLogin;
 			sourceTree = "<group>";
@@ -226,12 +229,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				674D25C02560C88000424A23 /* SignUpViewController.swift in Sources */,
+				67C6C9992561BD900054871A /* SignUpUserViewController.swift in Sources */,
 				674D25942560AB7000424A23 /* ViewController.swift in Sources */,
 				674D25902560AB7000424A23 /* AppDelegate.swift in Sources */,
 				674D25BD2560B97D00424A23 /* DashboardViewController.swift in Sources */,
 				674D25BA2560B52E00424A23 /* Utilities.swift in Sources */,
 				674D25922560AB7000424A23 /* SceneDelegate.swift in Sources */,
+				67C6C9912561B0830054871A /* ResetPasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
